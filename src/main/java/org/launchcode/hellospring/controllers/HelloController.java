@@ -8,13 +8,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("hello")
 public class HelloController {
 
-    //    // Handle request at path /hello
-//    @GetMapping("hello")
-//    @ResponseBody
-//    public String hello() {
-//        return "Hello, Spring!";
-//    }
-
     // lives at /hello/goodbye
     @GetMapping("goodbye")
     public String goodbye() {
